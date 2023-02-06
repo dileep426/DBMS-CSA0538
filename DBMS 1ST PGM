@@ -37,7 +37,7 @@ mysql> desc employee;
 
 mysql> select * from student
     -> ;
-ERROR 1146 (42S02): Table 'nagasrinivas.student' doesn't exist
+ERROR 1146 (42S02): Table 'dileep.student' doesn't exist
 mysql> select * faculty;
 ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'faculty' at line 1
 mysql> select * from faculty;

@@ -1,4 +1,4 @@
-# DBMS.naga-srinivas
+# DBMS.dileep
 
 mysql>  alter table faculty add primary key(facno));
 ERROR 1064 (42000): You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
@@ -54,7 +54,7 @@ mysql>
 mysql>
 mysql>
 mysql> desc couse;
-ERROR 1146 (42S02): Table 'nagasrinivas.couse' doesn't exist
+ERROR 1146 (42S02): Table 'dileep.couse' doesn't exist
 mysql>  alter table employee add primary key(empid);
 ERROR 1072 (42000): Key column 'empid' doesn't exist in table
 mysql> desc employee;
